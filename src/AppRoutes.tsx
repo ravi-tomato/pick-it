@@ -1,15 +1,17 @@
 import {
     BrowserRouter,
-    // Route,
+    Route,
     Routes
   } from "react-router-dom";
+import { Candidates } from "./pages/candidates";
+import { Ranking } from "./pages/ranking";
 
 export const AppRoutes = () => {
     return (
       <BrowserRouter>
         <Routes>
-          {/* <Route path='/' element={} />
-          <Route path='/pokemon' element={} /> */}
+          <Route path='/' element={<Candidates />} />
+          <Route path='/ranking' element={<Ranking />} />
         </Routes>
       </BrowserRouter>
     )

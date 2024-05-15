@@ -1,11 +1,12 @@
 import './App.css'
-import { Candidates } from './components/candidates'
+import { AppRoutes } from './AppRoutes'
+// import { Candidates } from './pages/candidates'
 
 function App() {
   return (
     <main className="flex-center">
       <div className="wrapper center">
-        <Candidates />
+        <AppRoutes />
       </div>
     </main>
   )
